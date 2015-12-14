@@ -1,0 +1,17 @@
+{
+  "name": "babel-plugin-transform-helper-modules",
+  "version": "6.0.0",
+  "description": "Externalize references to Babel helper modules",
+  "repository": "https://github.com/mntnoe/babel-plugin-transform-helper-modules",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "keywords": [
+    "babel-plugin"
+  ],
+  "scripts": {
+    "build": "mkdir -p lib; babel --presets es2015 -o lib/index.js src/index.js"
+  },
+  "peerDependencies": {
+    "babel-helper-modules": "github:mntnoe/babel-helper-modules"
+  }
+}

@@ -8,12 +8,12 @@ If you want to externalize builtins too via [core-js](https://www.npmjs.com/pack
 ## Installation
 
 ```sh
-$ npm install mntnoe/babel-plugin-transform-helper-modules mntnoe/babel-helper-modules
+$ npm install babel-plugin-transform-helper-modules babel-helper-modules
 ```
 
 ## Usage
 
-Remember to also install `babel-helper-modules` when using the transpiled code.
+Remember to also install [babel-helper-modules](https://www.npmjs.com/package/babel-helper-modules). when using the transpiled code.
 
 ### Via `.babelrc` (Recommended)
 

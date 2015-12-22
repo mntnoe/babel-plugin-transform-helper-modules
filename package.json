@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-helper-modules",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "Externalize helper functions to babel-helper-modules",
   "repository": "https://github.com/mntnoe/babel-plugin-transform-helper-modules",
   "license": "MIT",

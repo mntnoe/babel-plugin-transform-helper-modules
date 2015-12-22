@@ -1,7 +1,9 @@
-# babel-plugin-transform-helper-modules
+babel-plugin-transform-helper-modules
+=====================================
 
-Externalize references to helpers using `babel-helper-modules`. If you want to
-externalize builtins via `core-js`, see `babel-plugin-transform-runtime`.
+Externalize references to helpers using [babel-helper-modules](https://www.npmjs.com/package/babel-helper-modules).
+
+If you want to externalize builtins too via [core-js](https://www.npmjs.com/package/core-js)'s library, see the official plugin [babel-plugin-transform-runtime](https://www.npmjs.com/package/babel-plugin-transform-runtime).
 
 ## Installation
 
@@ -10,6 +12,8 @@ $ npm install mntnoe/babel-plugin-transform-helper-modules mntnoe/babel-helper-m
 ```
 
 ## Usage
+
+Remember to also install `babel-helper-modules` when using the transpiled code.
 
 ### Via `.babelrc` (Recommended)
 

@@ -9,6 +9,19 @@ export default function ({ types: t }) {
           return file.addImport(`babel-helper-modules/lib/${name}`, "default", name);
         }
       });
+      
+      this.setDynamic("regeneratorIdentifier", function () {
+        return file.addImport("regenerator/runtime-module", "default", "regeneratorRuntime");
+      });
+    },
+
+    visitor: {
+      ReferencedIdentifier(path, state) {
+        if (path.node.name === "regeneratorRuntime" && state.opts.regenerator !== false) {
+          path.replaceWith(state.get("regeneratorIdentifier"));
+          return;
+        }
+      }
     }
   };
 }

@@ -11,7 +11,7 @@ export default function ({ types: t }) {
       });
       
       this.setDynamic("regeneratorIdentifier", function () {
-        return file.addImport("regenerator/runtime-module", "default", "regeneratorRuntime");
+        return file.addImport("regenerator-runtime", "default", "regeneratorRuntime");
       });
     },
 

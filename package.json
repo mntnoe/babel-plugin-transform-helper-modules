@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-helper-modules",
-  "version": "6.0.2",
+  "version": "6.1.0",
   "description": "Externalize helper functions to babel-helper-modules",
   "repository": "https://github.com/mntnoe/babel-plugin-transform-helper-modules",
   "license": "MIT",
@@ -13,7 +13,7 @@
   },
   "peerDependencies": {
     "babel-helper-modules": "^6.0.0",
-    "regenerator": "^0.8.42"
+    "regenerator-runtime": "^0.9.5"
   },
   "devDependencies": {
     "babel-cli": "^6.8.0",

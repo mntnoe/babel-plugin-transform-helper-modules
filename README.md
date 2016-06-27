@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mntnoe/babel-plugin-transform-helper-modules.svg?branch=master)](https://travis-ci.org/mntnoe/babel-plugin-transform-helper-modules)
+
 babel-plugin-transform-helper-modules
 =====================================
 
